@@ -1,0 +1,57 @@
+.Button{
+    width: 100%;
+    text-align: left;
+    color: #011919;
+    background-color: white;
+    border-radius: 0px;
+    border:0px; 
+}
+.Button:hover{
+    cursor: pointer;
+    background: no-repeat;
+    background-image: url(/Ressourse/35.png);
+    background-size:contain;
+    background-position: right;
+    background-origin: content-box;
+}
+
+.Panel{
+    text-align: center;
+    background-color: white;
+}
+.Panel2{
+    text-align: center;
+    background-color: ;
+    margin-bottom: 200px;
+}
+
+.Bar1{
+    width: 100%;
+    height: 100%;
+}
+
+.Button2{
+    text-align: center;
+    float: left;
+    color: #011919;
+    background-color: white;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.Panel_2{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 20px;
+    border-left: 5px;
+    border-bottom: 10px;
+    border-bottom-style:inset;
+    border-left-style:groove;
+    border-bottom-color: #004285bf;
+    border-left-color: #03264bb5;
+}
+.Panel_2:hover{
+    border-bottom-color: #008529bf;
+    border-left-color: #034b3db5;
+}

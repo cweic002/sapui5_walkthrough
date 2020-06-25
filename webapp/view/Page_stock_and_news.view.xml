@@ -1,0 +1,14 @@
+<mvc:View
+          controllerName="sap.ui.demo.walkthrough.controller.Page_stock_and_news"
+          xmlns="sap.m"
+          xmlns:mvc="sap.ui.core.mvc">
+   <List items="{stocks>/Stocks}"
+      headerText="{i18n>content_page}"
+      class="sapUiResponsiveMargin"
+      width="auto">
+      <items>
+        <ObjectListItem
+            title="{stocks>Quantity} x {stocks>ProductName}"/>
+      </items>
+   </List>
+</mvc:View>
