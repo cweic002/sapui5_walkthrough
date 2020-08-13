@@ -1,28 +1,28 @@
 {
 	"Stocks": [
         {
-            name  : "Отборник СТАНДАРТ забуриваемый",
-            name2 : "Черный Металопрокат", 
-            image :  "images/stocks/1.png",
-            prise : "1352"
+            "name"  : "Отборник СТАНДАРТ забуриваемый",
+            "name2" : "Черный Металопрокат", 
+            "image" :  "images/stocks/1.png",
+            "prise" : 1352
         },
         {
-            name  : "Артикул 1503",
-            name2 : "Нержавеющая сталь", 
-            image : "images/stocks/2.png",
-            prise : "8000"       
+            "name"  : "Артикул 1503",
+            "name2" : "Нержавеющая сталь", 
+            "image" : "images/stocks/2.png",
+            "prise" : 8000       
         },
         {
-            name  : "Артикул 1404",
-            name2 : "Черный Металопрокат",
-            image : "images/stocks/3.png",
-            prise : "632"
+            "name"  : "Артикул 1404",
+            "name2" : "Черный Металопрокат",
+            "image" : "images/stocks/3.png",
+            "prise" : 632
         },
         {
-            name  : "Отборник СТАНДАРТ фланцевый",
-            name2 : "Черный Металопрокат", 
-            image : "images/stocks/4.png",   
-            prise : "2552"
+            "name"  : "Отборник СТАНДАРТ фланцевый",
+            "name2" : "Черный Металопрокат", 
+            "image" : "images/stocks/4.png",   
+            "prise" : 2552
         }
     ]
 }

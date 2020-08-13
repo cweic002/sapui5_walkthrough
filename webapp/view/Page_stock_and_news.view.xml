@@ -2,13 +2,40 @@
           controllerName="sap.ui.demo.walkthrough.controller.Page_stock_and_news"
           xmlns="sap.m"
           xmlns:mvc="sap.ui.core.mvc">
-   <List items="{stocks>/Stocks}"
-      headerText="{i18n>content_page}"
-      class="sapUiResponsiveMargin"
-      width="auto">
-      <items>
-        <ObjectListItem
-            title="{stocks>Quantity} x {stocks>ProductName}"/>
-      </items>
-   </List>
+          	<Shell>
+		<App class="myAppDemoWT">
+      <pages>
+				<Page title="{i18n>content_page}">
+					<content> 
+					<Table id="idTable" items="{stocks>/Stocks}">
+							<columns>
+								<Column>
+									<Text text="Название"/>
+								</Column>
+                               <Column>
+									<Text text="Металл"/>
+								</Column>
+								<Column>
+									<Text text="Фото"/>
+								</Column>
+                                <Column>
+									<Text text="Цена"/>
+								</Column>
+							</columns>
+								<items>
+										<ColumnListItem type="Active">
+											<cells>
+												<Text text="{stocks>name}"></Text>
+                                                <Text text="{stocks>name2}"></Text>
+												<Image src="{stocks>image}" width="40px" height="45px"/>
+                                                <Text text="{stocks>prise}"></Text>
+											</cells>
+										</ColumnListItem>
+								</items>
+							</Table>
+					</content>
+				</Page>
+			</pages>
+			</App>
+	</Shell>
 </mvc:View>

@@ -5,10 +5,9 @@
     <Panel
            headerText="{i18n>Контент_страница}"
            class="Panel2"
-           width="1250px"
+           width="1050px"
            height="550px"
            backgroundDesign="Solid"
-           style="Clear"
            busyIndicatorSize="Auto">
         <content>
             <Panel
